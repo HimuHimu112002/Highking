@@ -1,0 +1,315 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+/* ===================================
+    menu start
+====================================== */
+
+.navbar .navbar-nav .nav-item .nav-link{
+    font-size: 18px;
+    margin-left: 66px;
+    padding: 47px 0px;
+    color: black;
+    font-weight: 500;
+}
+nav{
+    position: absolute !important;
+    width: 100%;
+}
+
+/* ===================================
+    menu end
+====================================== */
+/* ===================================
+    banner start
+====================================== */
+.banner__section{
+    background-image: url("../img/Background.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 250px;
+    padding-bottom: 650px;
+}
+.banner__img{
+    display: flex;
+    justify-content: end;
+}
+.banner__img img{
+    border-radius: 225px;
+}
+.banner__section h1{
+    font-size: 72px;
+    font-weight: 600;
+    line-height: 90px;
+}
+.banner__section p{
+    margin-top: 10px;
+    font-size: 22px;
+    font-weight: 400;
+    width: 500px;
+}
+.banner__btn{
+    padding: 10px 0px;
+}
+.banner__btn a, .safe__content a{
+    margin: 0;
+    padding: 0;
+    background-color: #3E82FC;
+    padding: 15px 40px;
+    border-radius: 40px;
+    color: white !important;
+    font-size: 18px;
+    transition: .4s all ease-in-out;
+}
+.banner__btn a:hover{
+    background: transparent;
+    border: 1px solid #3E82FC;
+    color: black !important;
+}
+.banner__btn a:focus{
+   outline: none;
+   box-shadow: none;
+}
+.banner__btn .banner--btn{
+    background: transparent !important;
+    border: 1px solid #3E82FC;
+    color: black !important;
+}
+.banner__btn .banner--btn:hover{
+    background-color: #3E82FC !important;
+    color: white !important;
+}
+/* ===================================
+    banner end
+====================================== */
+/* ===================================
+    service start
+====================================== */
+.service__section{
+    margin-top: -530px;
+}
+.service__content{
+    padding: 66px 0px;
+    padding-left: 20px;
+}
+.service__content h3{
+    font-size: 24px;
+    font-weight: 500;
+    padding-bottom: 12px;
+}
+.service__content p{
+    font-size: 16px;
+    width: 270px;
+    color: grey;
+}
+.service__content a{
+    text-decoration: none;
+    color: red;
+    position: relative;
+}
+.service__content a::after{
+    content: "";
+    position: absolute;
+    width: 0px;
+    height: 1px;
+    left: 0;
+    bottom: 0;
+    transition: .4s all ease-in-out;
+}
+.service__content a:hover::after{
+    background-color: red;
+    width: 60px;
+    height: 1px;
+}
+/* ===================================
+    service end
+====================================== */
+/* ===================================
+safe start
+====================================== */
+.safe__section, .safe__section3, .safe__section2{
+    background-image: url("../img/bg.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 30px 0px;
+}
+.safe__section3{
+    margin-top: 150px !important;
+}
+.safe__img img{
+    border-radius: 400px 0px 400px 400px;
+}
+.safe__content h1{
+    font-size: 62px;
+    font-weight: 700;
+}
+.safe__count p{
+    padding: 10px 0px;
+}
+.safe__content a:hover{
+   transform: translateX(7px);
+}
+/* ===================================
+    safe end
+====================================== */
+/* ===================================
+    logo start
+====================================== */
+.logo__content p{
+    color: #3E82FC;
+    font-size: 16px;
+}
+.logo__content h3{
+    font-size: 40px;
+    font-weight: 600;
+}
+/* ===================================
+    logo end
+====================================== */
+/* ===================================
+    slider start
+====================================== */
+.slider__item{
+    padding: 35px 0px;
+    text-align: center;
+    width: 726px;
+    margin: auto;
+    border-top-left-radius: 140px;
+    border-bottom-right-radius: 140px;
+}
+.slider__item h6{
+    color: #3E82FC;
+}
+.slider__star i{
+    color: orange;
+}
+.slider__img{
+    position: relative;
+}
+.sicon{
+    position: absolute;
+    top: 0;
+    left: 100px;
+}
+.carousel-indicators{
+    bottom: -50px;
+}
+.carousel-indicators button{
+    background-color: #3E82FC !important;
+    width: 10px !important;
+    height: 10px !important;
+    border-radius: 50%;
+}
+/* ===================================
+    slider end
+====================================== */
+/* ===================================
+form start
+====================================== */
+.form__section{
+    margin-top: 100px;
+    background-color: #ECF3FF;
+    padding: 120px 0px;
+}
+.form__content h1{
+    font-size: 40px;
+    text-align: center;
+    font-weight: 600;
+}
+.form__content p{
+    padding-top: 30px;
+    font-size: 16px;
+    color: grey;
+    text-align: center;
+}
+form{
+    position: relative;
+}
+form i{
+    position: absolute;
+    left: 10px;
+    bottom: 10px;
+    font-size: 30px;
+    color: #3E82FC;
+}
+.form__content form input[type="text"]{
+    margin: 0;
+    padding: 0;
+    padding: 13px 0px;
+    border: 1px solid #3E82FC;
+}
+.form__content form input[type="text"]{
+  padding-left: 50px;
+}
+.form__content form input::placeholder{
+    padding-left: 30px;
+}
+.form__content form input:focus{
+    outline: none;
+    box-shadow: none;
+}
+.form__content form input[type="submit"]{
+    margin: 0;
+    padding: 0;
+    padding: 13px 20px !important;
+    background-color: #3E82FC;
+    color: white;
+    border: none;
+    margin-left: 10px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.form__content form input:focus{
+    outline: none;
+    box-shadow: none;
+}
+/* ===================================
+    form end
+====================================== */
+footer{
+    padding: 100px 0px;
+    background-color: #ECF3FF;
+}
+.f__content p{
+    padding: 15px 0px;
+}
+.footer__icon{
+    display: flex;
+}
+.f__icon{
+    width: 30px;
+    height: 30px;
+    background-color: #3E82FC;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.f__icon i{
+    color: white;
+}
+.footer__menu h5{
+    font-size: 22px;
+}
+.footer__menu ul{
+    margin: 0;
+    padding: 0;
+}
+.footer__menu ul li{
+    list-style-type: none;
+    padding: 4px 0px;
+}
+.footer__menu ul li a{
+    text-decoration: none;
+    color: black;
+}
